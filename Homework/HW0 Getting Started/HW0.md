@@ -6,7 +6,7 @@ In this assignment gives you will set up your account for using github to keep u
 
 Homework files are now in the public course repository.
 
-1. So, there is no separate homework repository. 
+1. So, there is no separate homework repository. If you have already created one, feel free to *rmdir* to remove it from the computer.
 2. You will turn in homework in a private repository for just you and me. So, you will not be able to see and comment on each others work directly in the repos.
 
 ## Things to do before end of class, **Thursday 30 August (class 3)**, or sooner
