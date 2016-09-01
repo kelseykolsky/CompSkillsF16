@@ -15,6 +15,7 @@ In this assignment gives you will learn to write a simple bash script
 
 1. Work through book, chapter 3, except pages 58—66 and 72—74
 2. Work through book, appendix, pages 394—405
+3. Go through grep tutorial: http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples
 
 ### Practice Unix Commands and bash scripting
 1. Create a repository on your computer to mirror the private one I invited you to. This is where you will submit homework. I recommend not putting this in your CompSkills\_F16 directory (since putting a repo in a repo can cause confusion). Something like ~/CompSkillsHomework would make sense, but this is entirely up to you. I will refer to this directory as *\<yourHomework\>*.
