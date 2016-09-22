@@ -3,6 +3,7 @@
  Resource | Description 
  ------- | ------------  
  http://www.ee.surrey.ac.uk/Teaching/Unix/ | Tutorial on unix and bash. We will use this for the course. 
+http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples | Grep tutorial
 
 ## Learning Python and packages
 Resource | Description 
@@ -14,6 +15,9 @@ http://www.scipy-lectures.org | Another extensive tutorial. Recommended as extra
 http://pandas.pydata.org/pandas-docs/version/0.18.1/10min.html#min | Quick pandas intro 
 https://docs.scipy.org/doc/numpy-dev/user/quickstart.html | Numpy tutorial 
 http://matplotlib.org/users/beginner.html | Matplotlib intro 
+http://codecademy.com/ | Has interactive session for hands-on learning, lots of content. Free content is very good, for-pay is probably even better
+http://datacamp.com/ | Also has interactive sessions, focusing on data analysis. everything up through machine learning for free.
+http://learnpythonthehardway.org/book/ | A funny (or annoying) cynics guide to learning python. free materials are extensive, and there is more if you pay.
 
 ## Learning git
 Resource | Description
