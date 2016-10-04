@@ -1,13 +1,14 @@
-# Homework XXX: ****DRAFT**** 
+# Homework 6: ****DRAFT**** 
 
 **NOTE: This is not the actual assignment yet!**
 
 In this assignment gives you will XXX.
 
 ### Readings
-1. Read XXX
-2. Work through XXX
-
+1. Read and meditate upon *The Zen of Python*, [https://en.wikipedia.org/wiki/Zen_of_Python](https://en.wikipedia.org/wiki/Zen_of_Python)
+2. Read [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)
+2. Work through [https://docs.python.org/3.5/tutorial/errors.html](https://docs.python.org/3.5/tutorial/errors.html)
+3. Work through textbook, 
 ## Things to do before beginning of class, **DATE (Lecture XXX)**, or sooner
 You will XXX
 
