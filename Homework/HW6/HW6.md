@@ -1,18 +1,19 @@
-# Homework 6: ****DRAFT**** 
-
-**NOTE: This is not the actual assignment yet!**
+# Homework 6: Human microbiome analysis
 We will begin analysis of two actual datasets from a human vaginal microbiome study. 
 
 In this assignment we will read in two actual empirical datasets, combine the data, and do some simple data processing. 
 
-***describe the datasets, cite PNAS, describe reason for study***
-### Readings
+This dataset is a human microbiome dataset. Vaginal swabs from 25 women were taken daily for 10 weeks by the Forney (UI) and Ravel (UMD) labs. Each sample was analyzed for microbial content using 16S amplicon analysis and high performance sequencing. The numbers in columns below bacterial species names are the number of sequences in that row that could be ascribed to that species, using Bayesian analysis. I have pruned the full dataset to only include a few high-abundance species, and only the first four days of the first and last week of sampling.
+
+## Objectives ##
+* Process more realistic data (with some errors!)
+## Readings, by 10/20 
 1. Read and meditate upon *The Zen of Python*, [https://en.wikipedia.org/wiki/Zen_of_Python](https://en.wikipedia.org/wiki/Zen_of_Python)
 2. Read [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)
 2. Work through [https://docs.python.org/3.5/tutorial/errors.html](https://docs.python.org/3.5/tutorial/errors.html)
 3. Work through textbook, Chapter 5, *Getting Started with Pandas*, pages 107--132
-## Things to do before beginning of class, **DATE (Lecture XXX)**, or sooner
-Write a program named *microbiome.py* that does the following:
+## Things to do before midnight, **10/20**, or sooner
+Write a program named *microbiome.py* that does the following (please do **not** use pandas, we will do that later):
 
 1. Read *../Resources/vaginal_communities.txt* into an appropriate data structure. 
 
@@ -23,7 +24,9 @@ Write a program named *microbiome.py* that does the following:
 2. Change all OTU counts to relative abundances (the relative abundance is the read counts--the number in columns--divided by the total count in *Total*)
 
 	OTUs are Operational Taxonomic Units, groups of similar sequences which are named by looking up those sequences in an existing database. Sometimes this is a species name, sometimes it is not.
-3. Compute the average relative abundance of each OTU for each patient.
+
+	a. Be sure to handle errors (there are likely to be some, since this is real-world data)
+3. Compute the average relative abundance of each OTU for each patient (averaged over all time points).
 
 	a. Be sure to handle errors (there are likely to be some, since this is real-world data)
 4. Write a tab delimited file named *avgRelativeAbundances.txt* that has the patient ID and the average relative abundances for each OTU.
