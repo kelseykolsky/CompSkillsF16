@@ -31,11 +31,14 @@ Write a program named *microbiome.py* that does the following (please do **not**
 3. Compute the average relative abundance of each OTU for each patient (averaged over all time points).
 
 	a. Be sure to handle errors (there are likely to be some, since this is real-world data)
+	
 4. Write a tab delimited file named *avgRelativeAbundances.txt* that has the patient ID and the average relative abundances for each OTU.
 
 	a. Sort the records by the patient ID
+
 	b. Keep the columns in the same relative order as in the input file
-	b. Retain the column headers from the input file. (we will use this file in later assignments)
+
+	c. Retain the column headers from the input file. (we will use this file in later assignments)
 ## Turn in homework
 
 1. Commit your work
